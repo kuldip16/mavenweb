@@ -22,7 +22,7 @@ public class cooki {
 		
 		driver= new FirefoxDriver();
 		String url= "https://www.moebel.de/betatesting.php";
-		
+		System.out.println("betatesting");
 		driver.get(url);
 		driver.manage().window().maximize();
 		WebElement drpdwn= driver.findElement(By.xpath("html/body/div[1]/select"));

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Kontackt_form(failed)">
+    <classes>
+      <class name="utility.Base">
+        <methods>
+          <include name="extentSetup"/>
+          <include name="generateReport"/>
+        </methods>
+      </class> <!-- utility.Base -->
+      <class name="testCases.KontaktPageTest">
+        <methods>
+          <include name="formfillUp" invocation-numbers="1"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- testCases.KontaktPageTest -->
+    </classes>
+  </test> <!-- Kontackt_form(failed) -->
+</suite> <!-- Failed suite [Suite] -->

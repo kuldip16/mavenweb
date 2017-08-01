@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" total="4" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34498" started-at="2017-06-27T13:02:56Z" finished-at="2017-06-27T13:03:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34498" started-at="2017-06-27T13:02:56Z" finished-at="2017-06-27T13:03:30Z">
+      <class name="testCases.KontaktPageTest">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="extentSetup" is-config="true" duration-ms="299" started-at="2017-06-27T18:32:55Z" finished-at="2017-06-27T18:32:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47db5fa5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="initializeTestBaseSetup" is-config="true" duration-ms="19802" started-at="2017-06-27T18:32:56Z" finished-at="2017-06-27T18:33:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testCases.KontaktPageTest.formfillUp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="FAIL" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="formfillUp" duration-ms="9953" started-at="2017-06-27T18:33:16Z" data-provider="logindata" finished-at="2017-06-27T18:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ishan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mittal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ishanmittal@webvirtue.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test data from sheet]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[No Error, Form submitted Succesfully]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WV589', ip: '192.168.91.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Ishan\AppData\Local\Temp\scoped_dir1388_14393}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3c9e456ea5fc1014c37fe7f961dc30dc
+*** Element info: {Using=xpath, value=.//*[@id='successFullySent']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=58.0.3029.110)
+  (Driver info: chromedriver=2.29.461591 (62ebf098771772160f391d75e589dc567915b233),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.01 seconds
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'WV589', ip: '192.168.91.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.29.461591 (62ebf098771772160f391d75e589dc567915b233), userDataDir=C:\Users\Ishan\AppData\Local\Temp\scoped_dir1388_14393}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=58.0.3029.110, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]
+Session ID: 3c9e456ea5fc1014c37fe7f961dc30dc
+*** Element info: {Using=xpath, value=.//*[@id='successFullySent']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:215)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:167)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:671)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.isDisplayed(Unknown Source)
+	at pageObjects.KontaktPage.formvalidation(KontaktPage.java:75)
+	at pageObjects.KontaktPage.formSubmit(KontaktPage.java:67)
+	at testCases.KontaktPageTest.formfillUp(KontaktPageTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formfillUp -->
+        <test-method status="FAIL" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2017-06-27T18:33:26Z" finished-at="2017-06-27T18:33:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=formfillUp status=FAILURE method=KontaktPageTest.formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.relevantcodes.extentreports.ExtentTest.isPathRelative(ExtentTest.java:465)
+	at com.relevantcodes.extentreports.ExtentTest.addScreenCapture(ExtentTest.java:275)
+	at utility.Base.afterEachTestMethod(Base.java:99)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="initializeTestBaseSetup" is-config="true" duration-ms="0" started-at="2017-06-27T18:33:30Z" finished-at="2017-06-27T18:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="SKIP" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="formfillUp" duration-ms="2" started-at="2017-06-27T18:33:30Z" data-provider="logindata" finished-at="2017-06-27T18:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kuldip]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kuldip@@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test data from sheet]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Please enter correct email id]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formfillUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2017-06-27T18:33:30Z" finished-at="2017-06-27T18:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="initializeTestBaseSetup" is-config="true" duration-ms="0" started-at="2017-06-27T18:33:30Z" finished-at="2017-06-27T18:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="SKIP" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="formfillUp" duration-ms="3" started-at="2017-06-27T18:33:30Z" data-provider="logindata" finished-at="2017-06-27T18:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ishan@kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mittal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ishanmittal@webvirtue.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test data from sheet]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[username should contain alphabets only]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formfillUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2017-06-27T18:33:30Z" finished-at="2017-06-27T18:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="initializeTestBaseSetup(java.lang.reflect.Method)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="initializeTestBaseSetup" is-config="true" duration-ms="0" started-at="2017-06-27T18:33:30Z" finished-at="2017-06-27T18:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeTestBaseSetup -->
+        <test-method status="SKIP" signature="formfillUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="formfillUp" duration-ms="1" started-at="2017-06-27T18:33:30Z" data-provider="logindata" finished-at="2017-06-27T18:33:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ishan kumar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mittal]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ishanmittal@webvirtue.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test data from sheet]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[space is username should contain alphabets only]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- formfillUp -->
+        <test-method status="SKIP" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="afterEachTestMethod" is-config="true" duration-ms="0" started-at="2017-06-27T18:33:30Z" finished-at="2017-06-27T18:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="SKIP" signature="generateReport()[pri:0, instance:testCases.KontaktPageTest@402f32ff]" name="generateReport" is-config="true" duration-ms="0" started-at="2017-06-27T18:33:30Z" finished-at="2017-06-27T18:33:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- testCases.KontaktPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

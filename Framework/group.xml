@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="automation test">
+<test name="smoke test cases">
+<groups>
+<run>
+
+<include name="a">
+</include>
+</run>
+
+</groups>
+<classes>
+
+<class name="testngFiles.groups">
+</class>
+
+</classes>
+
+</test>
+</suite>

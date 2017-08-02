@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [automation test]">
+  <test name="smoke test cases(failed)">
+    <classes>
+      <class name="testngFiles.Example">
+        <methods>
+          <include name="verifyHomePageTitle"/>
+        </methods>
+      </class> <!-- testngFiles.Example -->
+    </classes>
+  </test> <!-- smoke test cases(failed) -->
+</suite> <!-- Failed suite [automation test] -->

@@ -1,9 +1,0 @@
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="test suite by tester">
-	<test name="smoke test cases by tester">
-		<classes>
-			<class name="com.amazon.TC01"></class>
-			
-		</classes>
-	</test>
-</suite>

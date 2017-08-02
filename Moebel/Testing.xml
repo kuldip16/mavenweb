@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="none">
+	<test name="Test">
+		<classes>
+			<class name="Registration.Open_Pro_Lis_Page" />
+			<class name="Registration.Ng" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
+
+<suite name="Suite1" parallel="none">
+	<test name="Test1">
+		<classes>
+			<class name="categories.Schlafen" />
+			<class name="categories.Essen" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

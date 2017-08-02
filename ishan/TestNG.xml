@@ -1,0 +1,80 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+
+<suite name="Suite1" verbose="1" >
+  
+   <test name="Login" > 
+  
+    <classes>
+             <class name="utility.base" />
+        <class name="Testcases.Login" /> 
+    </classes> 
+  </test> 
+  
+  <test name="Search" > 
+  
+    <classes>
+       <class name="utility.base" />
+        <class name="Testcases.search" /> 
+    </classes> 
+  </test> 
+  <!-- <test name="Registration" > 
+  
+    <classes>
+       <class name="UtilityMobile.BaseMobile" />
+       <class name="TestCases.Registration" />
+    </classes> 
+  </test>  -->
+   <!-- 
+  <test name="profileUpdate" > 
+  
+    <classes>
+       <class name="UtilityMobile.BaseMobile" />
+       <class name="TestCases.profileUpdate" />
+    </classes> 
+  </test>
+ 
+   <test name="AddToWishList" > 
+  
+    <classes>
+       <class name="UtilityMobile.BaseMobile" />
+       <class name="TestCases.AddToWishlist" />
+    </classes> 
+  </test>
+   
+   <test name="VerifyCart" > 
+  
+    <classes>
+       <class name="UtilityMobile.BaseMobile" />
+       <class name="TestCases.AddToCart" />
+    </classes> 
+  </test>
+   
+  
+    <test name="ArticleDetailPage" > 
+  
+    <classes>
+       <class name="UtilityMobile.BaseMobile" />
+       <class name="TestCases.articleDetailPage" />
+    </classes>   
+     
+    </test>
+   
+    <test name="HomePage" > 
+  
+    <classes>
+       <class name="UtilityMobile.BaseMobile" />
+       <class name="TestCases.VerifyHomePage" />
+    </classes> 
+    
+   </test>
+
+   <test name="Footer" > 
+     <classes>
+       <class name="UtilityMobile.BaseMobile" />
+       <class name="TestCases.VerifyFooterLinks1" />
+     </classes> 
+   </test>
+  -->  
+ </suite>
+ 

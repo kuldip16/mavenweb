@@ -10,6 +10,6 @@ public class Add {
 		x = sc.nextInt();
 		y = sc.nextInt();
 		z= x+y;
-		System.out.println("sum of enetered integers ="+z);
+		System.out.println("sum of enetered integers =fgds"+z);
 	}
 }

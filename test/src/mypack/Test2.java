@@ -13,7 +13,7 @@ public class Test2 {
 	   driver.findElement(By.className("login-text")).click();
 	   driver.findElement(By.xpath(".//[conains(text,'Mit E-Mail-Adresse anmelden')]"));
 	   driver.findElement(By.name("reg_email")).sendKeys("ankush@gmail.com");
-	   
+	   System.out.println("test");
    }
 	
 }

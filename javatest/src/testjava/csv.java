@@ -26,7 +26,7 @@ public class csv {
 		for (int i = 0; i < rt; i++)
 		{
 		writer.write(country[i]);	
-		//writer.endRecord();
+		writer.endRecord();
 			
 		}
 		writer.close();
@@ -37,12 +37,12 @@ public class csv {
 			FileReader fr = new FileReader(new File(csv));  
 		     BufferedReader br = new BufferedReader(fr);  
 		     String st;  
-		     while ((st = br.readLine()) != null) {  
+		     while ((st = br.readLine()) != null)
+		     {  
 		       System.out.println(st);  
-		      
-		   }  
-		}
+		     }  
 		
+		}
 	}
 
 

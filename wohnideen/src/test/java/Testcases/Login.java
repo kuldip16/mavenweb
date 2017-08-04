@@ -1,5 +1,6 @@
 package Testcases;
 
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 
@@ -19,7 +20,7 @@ public class Login extends BaseMobile  {
 		  String actualTextLogin = null;
 		  utilMobile.wait(1000);
 		  //utilMobile.clickevent(Homepage.popup);
-		  utilMobile.clickIDevent("sb-nav-close");
+		  utilMobile.clickIDevent("test");
 		  ExtentTestManager.getTest().log(LogStatus.INFO, "Popup closed");
 		  driver.navigate().refresh();
 		  utilMobile.wait(1000);

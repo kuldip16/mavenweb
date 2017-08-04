@@ -10,7 +10,7 @@ import jxl.read.biff.BiffException;
 public class readexcel {
 
 	public static void main(String[] args) throws BiffException, IOException {
-		File file = new File("C:\\Users\\Kuldip\\Desktop\\16553.txt");
+		File file = new File("C:\\Users\\Kuldip\\Desktop\\16553.xls");
 		if(!file.exists()){
 			file.createNewFile();
 		}

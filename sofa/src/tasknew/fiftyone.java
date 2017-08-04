@@ -12,7 +12,7 @@ public class fiftyone {
 		try{
 		int i = 17;
 		if(i==50/0){
-		System.out.println("by einvalid");
+		System.out.println("by invalid");
 		}
 		}
 		

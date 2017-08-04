@@ -7,7 +7,7 @@ public class arrayone {
 	
 	
 
-public static void main(String[] array) 
+public static void main(String[] args)
 {
 		String [] Ani= {"tiger" ,"Lion", "Leopard"};
 		System.out.println(Ani.length);

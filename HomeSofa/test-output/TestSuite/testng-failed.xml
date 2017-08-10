@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test name="Demo1(failed)">
+    <classes>
+      <class name="TestCases.Homepage_12398_1">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Homepage_12398_1 -->
+      <class name="TestCases.Change_Password_12398_12">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Change_Password_12398_12 -->
+      <class name="TestCases.FabricSampleFunction">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FabricSampleFunction -->
+      <class name="TestCases.Checkout_12298_08">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
+          <include name="Checkoutsignup"/>
+        </methods>
+      </class> <!-- TestCases.Checkout_12298_08 -->
+      <class name="Utility.Base">
+        <methods>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+      <class name="TestCases.CartPage_12398_04">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CartPage_12398_04 -->
+      <class name="TestCases.CallBack_12398_14">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CallBack_12398_14 -->
+      <class name="TestCases.ModalCartWindow_12398_03">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ModalCartWindow_12398_03 -->
+      <class name="TestCases.SearchFunctionality_12398_06_07">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SearchFunctionality_12398_06_07 -->
+      <class name="TestCases.FooterModule_12398_10_a">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FooterModule_12398_10_a -->
+      <class name="TestCases.SignOut_12398_13">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SignOut_12398_13 -->
+      <class name="TestCases.ChangePassword_12398_11">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ChangePassword_12398_11 -->
+    </classes>
+  </test> <!-- Demo1(failed) -->
+  <test name="Demo3(failed)">
+    <classes>
+      <class name="TestCases.Homepage_12398_1">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Homepage_12398_1 -->
+      <class name="TestCases.Change_Password_12398_12">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Change_Password_12398_12 -->
+      <class name="TestCases.FabricSampleFunction">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FabricSampleFunction -->
+      <class name="TestCases.Checkout_12298_08">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Checkout_12298_08 -->
+      <class name="Utility.Base">
+        <methods>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+      <class name="TestCases.CartPage_12398_04">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="Cart_Page_Function"/>
+        </methods>
+      </class> <!-- TestCases.CartPage_12398_04 -->
+      <class name="TestCases.CallBack_12398_14">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CallBack_12398_14 -->
+      <class name="TestCases.ModalCartWindow_12398_03">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ModalCartWindow_12398_03 -->
+      <class name="TestCases.SearchFunctionality_12398_06_07">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SearchFunctionality_12398_06_07 -->
+      <class name="TestCases.FooterModule_12398_10_a">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FooterModule_12398_10_a -->
+      <class name="TestCases.SignOut_12398_13">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SignOut_12398_13 -->
+      <class name="TestCases.ChangePassword_12398_11">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ChangePassword_12398_11 -->
+    </classes>
+  </test> <!-- Demo3(failed) -->
+  <test name="Demo8(failed)">
+    <classes>
+      <class name="TestCases.Homepage_12398_1">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="Homepage"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Homepage_12398_1 -->
+      <class name="TestCases.Change_Password_12398_12">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Change_Password_12398_12 -->
+      <class name="TestCases.FabricSampleFunction">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FabricSampleFunction -->
+      <class name="TestCases.Checkout_12298_08">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Checkout_12298_08 -->
+      <class name="Utility.Base">
+        <methods>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+      <class name="TestCases.CartPage_12398_04">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CartPage_12398_04 -->
+      <class name="TestCases.CallBack_12398_14">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CallBack_12398_14 -->
+      <class name="TestCases.ModalCartWindow_12398_03">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ModalCartWindow_12398_03 -->
+      <class name="TestCases.SearchFunctionality_12398_06_07">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SearchFunctionality_12398_06_07 -->
+      <class name="TestCases.FooterModule_12398_10_a">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FooterModule_12398_10_a -->
+      <class name="TestCases.SignOut_12398_13">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SignOut_12398_13 -->
+      <class name="TestCases.ChangePassword_12398_11">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ChangePassword_12398_11 -->
+    </classes>
+  </test> <!-- Demo8(failed) -->
+  <test name="Demo9(failed)">
+    <classes>
+      <class name="TestCases.Homepage_12398_1">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Homepage_12398_1 -->
+      <class name="TestCases.Change_Password_12398_12">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Change_Password_12398_12 -->
+      <class name="TestCases.FabricSampleFunction">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FabricSampleFunction -->
+      <class name="TestCases.Checkout_12298_08">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
+          <include name="Checkoutsignup"/>
+        </methods>
+      </class> <!-- TestCases.Checkout_12298_08 -->
+      <class name="Utility.Base">
+        <methods>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+      <class name="TestCases.CartPage_12398_04">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CartPage_12398_04 -->
+      <class name="TestCases.CallBack_12398_14">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CallBack_12398_14 -->
+      <class name="TestCases.ModalCartWindow_12398_03">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ModalCartWindow_12398_03 -->
+      <class name="TestCases.SearchFunctionality_12398_06_07">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SearchFunctionality_12398_06_07 -->
+      <class name="TestCases.FooterModule_12398_10_a">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FooterModule_12398_10_a -->
+      <class name="TestCases.SignOut_12398_13">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SignOut_12398_13 -->
+      <class name="TestCases.ChangePassword_12398_11">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ChangePassword_12398_11 -->
+    </classes>
+  </test> <!-- Demo9(failed) -->
+  <test name="Demo11(failed)">
+    <classes>
+      <class name="TestCases.Homepage_12398_1">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Homepage_12398_1 -->
+      <class name="TestCases.Change_Password_12398_12">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Change_Password_12398_12 -->
+      <class name="TestCases.FabricSampleFunction">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FabricSampleFunction -->
+      <class name="TestCases.Checkout_12298_08">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.Checkout_12298_08 -->
+      <class name="Utility.Base">
+        <methods>
+          <include name="generateReport"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- Utility.Base -->
+      <class name="TestCases.CartPage_12398_04">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CartPage_12398_04 -->
+      <class name="TestCases.CallBack_12398_14">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.CallBack_12398_14 -->
+      <class name="TestCases.ModalCartWindow_12398_03">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ModalCartWindow_12398_03 -->
+      <class name="TestCases.FooterModule_12398_10_a">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.FooterModule_12398_10_a -->
+      <class name="TestCases.SignOut_12398_13">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.SignOut_12398_13 -->
+      <class name="TestCases.SearchFunctionality_12398_06_07">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="SearchpageFunction"/>
+        </methods>
+      </class> <!-- TestCases.SearchFunctionality_12398_06_07 -->
+      <class name="TestCases.ChangePassword_12398_11">
+        <methods>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+        </methods>
+      </class> <!-- TestCases.ChangePassword_12398_11 -->
+    </classes>
+  </test> <!-- Demo11(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

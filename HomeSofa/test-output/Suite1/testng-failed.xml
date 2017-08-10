@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]">
+  <test name="Demo1(failed)">
+    <classes>
+      <class name="TestCases.DeletingTrashdata">
+        <methods>
+          <include name="generateReport"/>
+          <include name="initializeTestBaseSetup"/>
+          <include name="afterEachTestMethod"/>
+          <include name="testbefore"/>
+          <include name="extentSetup"/>
+        </methods>
+      </class> <!-- TestCases.DeletingTrashdata -->
+    </classes>
+  </test> <!-- Demo1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
